@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>mainPage</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/styles/normalize.css" />
+    <link rel="stylesheet" href="assets/styles/grid.css" />
+    <link rel="stylesheet" href="assets/styles/helper.css" />
+    <link rel="stylesheet" href="assets/styles/app.css" />
+    <link rel="stylesheet" href="assets/styles/responsive.css" />
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__wrapper">
+                <div class="header-top">
+                    <div class="header__singup col">
+                        <i class="header__singup-icon fa-solid fa-right-to-bracket"></i>
+                        <span class="header__singup-text fontWeight-600">ورود / عضویت</span>
+                    </div>
+                    <div class="header__logo col">
+                        <a class="header__logo-link" href=""><img class="header__logo-svg" src="assets/svg/logo.svg"
+                                alt="site logo" /></a>
+                        <div class="popup">هیکولرن</div>
+                    </div>
+                    <div class="header__actions col">
+                        <div class="header__actions-btns">
+                            <div class="header__actions-basket">
+                                <span class="badge">1</span>
+                                <i class="fa-solid fa-basket-shopping header__actions-basket-icon"></i>
+                            </div>
+                            <div class="header-actions__search">
+                                <i class="fa-solid fa-magnifying-glass header__actions-search-icon"></i>
+                                <div class="header-actions__search-box triangle">
+                                    <div class="search-box">
+                                        <div class="search-box__form">
+                                            <form action="" class="form">
+                                                <input class="form__input" type="text" placeholder="جستجو کنید ...">
+                                            </form>
+                                        </div>
+                                        <div class="search-box__icon">
+                                            <i class="mobile-menu__search-icon-i fa-solid fa-magnifying-glass"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="header__actions-contactus">
+                            <span class="header__actions-contactus-text"> پشتیبانی </span>
+                            <span class="header__actions-contactus-tel ss02">
+                                021-66633334
+                            </span>
+                            <div class="popup ss02">ساعت تماس 08:00 تا 12:00</div>
+                        </div>
+                    </div>
+                    <div class="header__menu col">
+                        <i class="header__menu-icon fa-solid fa-bars"></i>
+                    </div>
+                </div>
+                <nav class="nav">
+                    <ul class="menu">
+                        <li class="menu__item">
+                            <a href="javascript:void(0)" class="menu__link">منو کاربردی</a>
+                            <ul class="submenu">
+                                <li class="submenu__item">
+                                    <a class="submenu__link" href="javascript:void(0)">سئو</a>
+                                    <ul class="second-submenu triangle">
+                                        <li class="second-submenu__item">
+                                            <a class="second-submenu__link" href="">وبسایت</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="submenu__item">
+                                    <a class="submenu__link" href="javascript:void(0)">برنامه نویسی</a>
+                                    <ul class="second-submenu">
+                                        <li class="second-submenu__item">
+                                            <a class="second-submenu__link" href="">پایتون</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="submenu__item">
+                                    <a class="submenu__link" href="javascript:void(0)">طراحی وب</a>
+                                    <ul class="second-submenu">
+                                        <li class="second-submenu__item">
+                                            <a class="second-submenu__link" href="">تولید محتوا</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="submenu__item">
+                                    <a class="submenu__link" href="javascript:void(0)">کسب و کار آنلاین</a>
+                                    <ul class="second-submenu">
+                                        <li class="second-submenu__item">
+                                            <a class="second-submenu__link" href="">گرافیک</a>
+                                        </li>
+                                        <li class="second-submenu__item">
+                                            <a class="second-submenu__link" href="">اینستاگرام </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="menu__item">
+                            <a href="javascript:void(0)" class="menu__link">دمو محصول</a>
+                            <ul class="submenu">
+                                <li class="submenu__item">
+                                    <a class="submenu__link" href="javascript:void(0)">پرداخت</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="menu__item">
+                            <a href="javascript:void(0)" class="menu__link">دمو وبلاگ</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="javascript:void(0)" class="menu__link">دمو برگه</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="javascript:void(0)" class="menu__link">سبد خرید</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="javascript:void(0)" class="menu__link">فروشگاه</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="mobile-menu">
+            <div class="mobile-menu__search">
+                <div class="mobile-menu__search-form">
+                    <form action="" class="form">
+                        <input class="form__input" type="text" placeholder="جستجو کنید ...">
+                    </form>
+                </div>
+                <div class="mobile-menu__search-icon">
+                    <i class="mobile-menu__search-icon-i fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+            <div class="mobile-menu__btns">
+
+                <div class="mobile-menu__btns-wrapper">
+                    <i class="header__singup-icon fa-solid fa-right-to-bracket"></i>
+                    <a class="mobile-menu__login" href="javascript:void(0)">
+                        حساب کاربری
+                    </a>
+                </div>
+                <div class="mobile-menu__btns-wrapper">
+                    <span class="mobile-menu__basket-num">0</span>
+                    <a class="mobile-menu__basket" href="javascript:void(0)">
+                        سبد خرید
+                    </a>
+                </div>
+            </div>
+            <ul class="mobile-list">
+                <li class="mobile-list__item">
+                    <div class="mobile-list__links">
+                        <a class="mobile-list__link" href="javascript:void(0)">ارز دیجیتال</a>
+                        <i class="fa-solid fa-angle-left"></i>
+                    </div>
+                    <div class="mobile-list__submenu">
+                        <a class="mobile-list__submenu-link" href="#">دسته بندی</a>
+                        <a class="mobile-list__submenu-link" href="#">سئو</a>
+                    </div>
+                </li>
+                <li class="mobile-list__item">
+                    <div class="mobile-list__links">
+                        <a class="mobile-list__link" href="javascript:void(0)">کتاب</a>
+                        <i class="fa-solid fa-angle-left"></i>
+                    </div>
+                    <div class="mobile-list__submenu">
+                        <a class="mobile-list__submenu-link" href="#">کسب و کار</a>
+                    </div>
+                </li>
+                <li class="mobile-list__item">
+                    <div class="mobile-list__links">
+                        <a class="mobile-list__link" href="javascript:void(0)">موبایل</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+
+    <main class="main ss02">
+        <section class="intro">
+            <div class="empty"></div>
+            <h2 class="main-2th-title">دوره های تخصصی و کاربردی</h2>
+            <h1 class="main-1th-title">کارخانه تبدیل علاقمند به متخصص</h1>
+            <div class="main-search">
+                <div class="main-search__icon">
+                    <i class="fa-solid fa-magnifying-glass header__actions-search-icon"></i>
+                </div>
+                <div class="main-search__input">
+                    <input type="text" placeholder="جستجو در دوره های آموزشی">
+                </div>
+                <div class="main-search__cat">
+                    <i class="fa-solid fa-angle-down"></i>
+                    <span class="main-search__text">جستجو در ...</span>
+                    <div class="main-search__sub">
+                        <p class="sub-item">جستجو در...</p>
+                        <p class="sub-item">دوره های آموزشی</p>
+                        <p class="sub-item">وبلاگ</p>
+                    </div>
+                </div>
+            </div>
+            <div class="info">
+                <div class="info-item ss02">
+                    <span class="info-item__num">41</span>
+                    ویدیو آموزشی
+                </div>
+                <div class="info-item ss02">
+                    <span class="info-item__num">6</span>
+                    دوره آموزشی
+                </div>
+                <div class="info-item ss02">
+                    <span class="info-item__num">3</span>
+                    مطالب و نوشته
+                </div>
+                <div class="info-item ss02">
+                    <span class="info-item__num">45</span>
+                    کاربر فعال
+                </div>
+            </div>
+            <div class="main-banner">
+                <h3 class="main-banner__text">چرا به آموزشی های ویدیوی ما اعتماد کردند؟</h3>
+                <a class="main-banner__link" href="javascript:void(0)">
+                    مشاهده جزئیات
+                    <i class="fa-solid fa-angle-left banner_i"></i>
+                </a>
+            </div>
+        </section>
+        <div class="container">
+            <section class="courses-section ss02">
+                <h2 class="section__title"><span class="courses__title-text">آموزش های تخصصی با بهترین ها</span></h2>
+                <div class="courses">
+                    <div class="course__item">
+                        <div class="course__img-wrapper">
+                            <img class="course__img img-responsive" src="assets/img/10-vtv.png" alt="">
+                        </div>
+                        <div class="course__content">
+                            <h3 class="course__title"><a class="course__title-link" href="#">آموزش برنامه نویسی
+                                    react</a>
+                            </h3>
+                            <div class="course__costs">
+                                <div class="course__cost-off">
+                                    <span class="course__cost-off-num">2,200,000</span>
+                                    <span class="course__cost-off-text">تخفیف ویژه</span>
+                                </div>
+                                <div class="course__cost-real">
+                                    <span class="course__cost-off-num-r">1,600,000</span>
+                                    <span class="course__cost-off-text-r">تومان</span>
+                                </div>
+                            </div>
+                            <div class="course__register">
+                                <a class="course__register-link" href="#">ثبت نام و شروع یادگیری</a>
+                                <span class="course__students">12 دانشجو</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="course__item">
+                        <div class="course__img-wrapper">
+                            <img class="course__img img-responsive" src="assets/img/2-hj2.png" alt="">
+                        </div>
+                        <div class="course__content">
+                            <h3 class="course__title"><a class="course__title-link" href="#">آموزش برنامه نویسی design
+                                    php</a></h3>
+                            <div class="course__costs">
+                                <div class="course__cost-off">
+                                    <span class="course__cost-off-num">4,500,000</span>
+                                    <span class="course__cost-off-text">تخفیف ویژه</span>
+                                </div>
+                                <div class="course__cost-real">
+                                    <span class="course__cost-off-num-r">3,500,000</span>
+                                    <span class="course__cost-off-text-r">تومان</span>
+                                </div>
+                            </div>
+                            <div class="course__register">
+                                <a class="course__register-link" href="#">ثبت نام و شروع یادگیری</a>
+                                <span class="course__students">94 دانشجو</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="course__item">
+                        <div class="course__img-wrapper">
+                            <img class="course__img img-responsive" src="assets/img/3-miz.png" alt="">
+                        </div>
+                        <div class="course__content">
+                            <h3 class="course__title"><a class="course__title-link" href="#">آموزش برنامه نویسی
+                                    javascript</a></h3>
+                            <div class="course__costs">
+                                <div class="course__cost-off">
+                                    <span class="course__cost-off-num">3,800,000</span>
+                                    <span class="course__cost-off-text">تخفیف ویژه</span>
+                                </div>
+                                <div class="course__cost-real">
+                                    <span class="course__cost-off-num-r">2,000,000</span>
+                                    <span class="course__cost-off-text-r">تومان</span>
+                                </div>
+                            </div>
+                            <div class="course__register">
+                                <a class="course__register-link" href="#">ثبت نام و شروع یادگیری</a>
+                                <span class="course__students">47 دانشجو</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="course__item">
+                        <div class="course__img-wrapper">
+                            <img class="course__img img-responsive" src="assets/img/4-kh7.png" alt="">
+                        </div>
+                        <div class="course__content">
+                            <h3 class="course__title"><a class="course__title-link" href="#">آموزش برنامه نویسی
+                                    laravel</a>
+                            </h3>
+                            <div class="course__costs without-off">
+                                <div class="course__cost-real">
+                                    <span class="course__cost-off-num-r">1,400,000</span>
+                                    <span class="course__cost-off-text-r">تومان</span>
+                                </div>
+                            </div>
+                            <div class="course__register">
+                                <a class="course__register-link" href="#">ثبت نام و شروع یادگیری</a>
+                                <span class="course__students">25 دانشجو</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="course__item">
+                        <div class="course__img-wrapper">
+                            <img class="course__img img-responsive" src="assets/img/6-56m.png" alt="">
+                        </div>
+                        <div class="course__content">
+                            <h3 class="course__title"><a class="course__title-link" href="#">آموزش برنامه نویسی ui</a>
+                            </h3>
+                            <div class="course__costs">
+                                <div class="course__cost-off">
+                                    <span class="course__cost-off-num">5,800,000</span>
+                                    <span class="course__cost-off-text">تخفیف ویژه</span>
+                                </div>
+                                <div class="course__cost-real">
+                                    <span class="course__cost-off-num-r">4,600,000</span>
+                                    <span class="course__cost-off-text-r">تومان</span>
+                                </div>
+                            </div>
+                            <div class="course__register">
+                                <a class="course__register-link" href="#">ثبت نام و شروع یادگیری</a>
+                                <span class="course__students">17 دانشجو</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="course__item">
+                        <div class="course__img-wrapper">
+                            <img class="course__img img-responsive" src="assets/img/12-3w1.png" alt="">
+                        </div>
+                        <div class="course__content">
+                            <h3 class="course__title"><a class="course__title-link" href="#">آموزش برنامه نویسی design
+                                    pattern</a></h3>
+                            <div class="course__costs without-off">
+                                <div class="course__cost-real">
+                                    <span class="course__cost-off-num-r">6,000,000</span>
+                                    <span class="course__cost-off-text-r">تومان</span>
+                                </div>
+                            </div>
+                            <div class="course__register">
+                                <a class="course__register-link" href="#">ثبت نام و شروع یادگیری</a>
+                                <span class="course__students">5 دانشجو</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="container">
+            <section class="fields">
+                <h3 class="section__title">در چه حوزه ای می خوای بیشتر یاد بگیری ؟</h3>
+                <div class="field-items">
+                    <div class="item">
+                        <img class="item__img img-responsive" src="assets/img/-p5d.png" alt="">
+                    </div>
+                    <div class="item">
+                        <img class="item__img img-responsive" src="assets/img/1-vhh.png" alt="">
+                    </div>
+                    <div class="item">
+                        <img class="item__img img-responsive" src="assets/img/10-vtv.png" alt="">
+                    </div>
+                    <div class="item">
+                        <img class="item__img img-responsive" src="assets/img/11-akq.png" alt="">
+                    </div>
+                    <div class="item">
+                        <img class="item__img img-responsive" src="assets/img/12-3w1 (1).png" alt="">
+                    </div>
+                    <div class="item">
+                        <img class="item__img img-responsive" src="assets/img/2-hj2.png" alt="">
+                    </div>
+                    <div class="item">
+                        <img class="item__img img-responsive" src="assets/img/3-miz.png" alt="">
+                    </div>
+                    <div class="item">
+                        <img class="item__img img-responsive" src="assets/img/4-kh7.png" alt="">
+                    </div>
+                    <div class="item">
+                        <img class="item__img img-responsive" src="assets/img/6-56m.png" alt="">
+                    </div>
+                    <div class="item">
+                        <img class="item__img img-responsive" src="assets/img/7-276.png" alt="">
+                    </div>
+                    <div class="item">
+                        <img class="item__img img-responsive" src="assets/img/9-26n.png" alt="">
+                    </div>
+                    <div class="item">
+                        <img class="item__img img-responsive" src="assets/img/5-m7s.png" alt="">
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="container">
+            <section class="plans ss02">
+                <h3 class="section__title">فرصت یادگیری را از دست ندهید!</h3>
+                <p class="section__text">با افزایش روز افزون سرعت اینترنت، مشاهده آنلاین ویدیوها به امر ساده‌ای تبدیل
+                    شده، اگر شما هم توانایی مشاهده آنلاین را دارید، قطعا پلن عضویت ویژه هیکولرن بهترین انتخاب برای
+                    شماست، تا بتوانید با کمترین هزینه، بیشترین بازدهی را دریافت کنید </p>
+                <div class="plan_items">
+                    <div class="plan">
+                        <h3 class="plan__title">اشتراک برنزی</h3>
+                        <p class="plan__text">لورم ایپسوم متن ساختگی با...</p>
+                        <ul class="plan-list">
+                            <li class="plan__item">
+                                <span class="plan__item-ques">دانلود</span>
+                                <span class="plan__item-answer">10 ویدیو روزانه</span>
+                            </li>
+                            <li class="plan__item">
+                                <span class="plan__item-ques">ویژگی تست</span>
+                                <span class="plan__item-answer">دارد</span>
+                            </li>
+                            <li class="plan__item">
+                                <span class="plan__item-ques">ویژگی تست 2</span>
+                                <span class="plan__item-answer">ندارد</span>
+                            </li>
+                            <li class="plan__item">
+                                <span class="plan__item-ques">پشتیبانی</span>
+                                <span class="plan__item-answer">ندارد</span>
+                            </li>
+
+                        </ul>
+                        <div class="plan__cost">
+                            <span class="plan_cost-num">80,000 تومان</span>
+                            <span class="plan_cost-month">/ ماهیانه</span>
+                        </div>
+                        <a href="#" class="plan__details">توضیحات بیشتر</a>
+                    </div>
+                    <div class="plan">
+                        <h3 class="plan__title">اشتراک نقره ای</h3>
+                        <p class="plan__text">لورم ایپسوم متن ساختگی با...</p>
+                        <ul class="plan-list">
+                            <li class="plan__item">
+                                <span class="plan__item-ques">دانلود</span>
+                                <span class="plan__item-answer">20 ویدیو روزانه</span>
+                            </li>
+                            <li class="plan__item">
+                                <span class="plan__item-ques">ویژگی تست</span>
+                                <span class="plan__item-answer">دارد</span>
+                            </li>
+                            <li class="plan__item">
+                                <span class="plan__item-ques">ویژگی تست 2</span>
+                                <span class="plan__item-answer">ندارد</span>
+                            </li>
+                            <li class="plan__item">
+                                <span class="plan__item-ques">پشتیبانی</span>
+                                <span class="plan__item-answer">ندارد</span>
+                            </li>
+
+                        </ul>
+                        <div class="plan__cost">
+                            <span class="plan_cost-num">80,000 تومان</span>
+                            <span class="plan_cost-month">/ ماهیانه</span>
+                        </div>
+                        <a href="#" class="plan__details">توضیحات بیشتر</a>
+                    </div>
+                    <div class="plan">
+                        <h3 class="plan__title">اشتراک طلایی</h3>
+                        <p class="plan__text">لورم ایپسوم متن ساختگی با...</p>
+                        <ul class="plan-list">
+                            <li class="plan__item">
+                                <span class="plan__item-ques">دانلود</span>
+                                <span class="plan__item-answer">30 ویدیو روزانه</span>
+                            </li>
+                            <li class="plan__item">
+                                <span class="plan__item-ques">ویژگی تست</span>
+                                <span class="plan__item-answer">دارد</span>
+                            </li>
+                            <li class="plan__item">
+                                <span class="plan__item-ques">ویژگی تست 2</span>
+                                <span class="plan__item-answer">ندارد</span>
+                            </li>
+                            <li class="plan__item">
+                                <span class="plan__item-ques">پشتیبانی</span>
+                                <span class="plan__item-answer">ندارد</span>
+                            </li>
+
+                        </ul>
+                        <div class="plan__cost">
+                            <span class="plan_cost-num">80,000 تومان</span>
+                            <span class="plan_cost-month">/ ماهیانه</span>
+                        </div>
+                        <a href="#" class="plan__details">توضیحات بیشتر</a>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="container">
+            <section class="last-news">
+                <h3 class="section__title">آخرین یافته ها و نوشته ها</h3>
+                <p class="section__text">اینجا محتوایی تولید می‌کنیم که دانستنش سرعت شما را در رسیدن به اهدافتان بیشتر
+                    می‌کند</p>
+                <div class="news-items">
+                    <div class="news__item">
+                        <img class="news__img img-responsive" src="assets/img/Frame-6.png" alt="frame news">
+                        <h4 class="news__title">بازی سند باکس چیست؟</h4>
+                        <p class="news__desc">
+                            با توجه به اسقبال فروانی که نسبت به بازی سند باکس در این چند وقت اخیر صورت گرفته است در این
+                            مقاله به طور کامل به معرفی این بازی پرداخته و راه‌های کسب درآمد
+
+                            با توجه به اسقبال فروانی که نسبت به بازی سند باکس در این چند وقت اخیر صورت گرفته است در این
+                            مقاله به طور کامل به معرفی این بازی پرداخته و راه‌های کسب درآمد
+
+
+
+
+                        </p>
+                        <a class="news__link" href="javascript:void(0)">بیشتر بخوانید...</a>
+                    </div>
+                    <div class="news__item">
+                        <img class="news__img img-responsive" src="assets/img/designing-your-life.png" alt="frame news">
+                        <h4 class="news__title">تاثیر سئو بر کسب و کار آنلاین چگونه است؟
+                        </h4>
+                        <p class="news__desc">
+                            پایداری و قدرت یک کسب و کار اینترنتی به داشتن رتبه‌های پایدار در موتو جستجوی گوگل است. حتی
+                            اگر تمرکز زیادی روی شبکه‌های اجتماعی هم داشته باشند و از آن نتا
+                            پایداری و قدرت یک کسب و کار اینترنتی به داشتن رتبه‌های پایدار در موتو جستجوی گوگل است. حتی
+                            اگر تمرکز زیادی روی شبکه‌های اجتماعی هم داشته باشند و از آن نتا </p>
+                        <a class="news__link" href="javascript:void(0)">بیشتر بخوانید...</a>
+                    </div>
+                    <div class="news__item">
+                        <img class="news__img img-responsive" src="assets/img/Game-Sandbox.png" alt="frame news">
+                        <h4 class="news__title">خلاصه کتاب زندگی خود را طراحی کنید
+                        </h4>
+                        <p class="news__desc">
+                            همه افراد به صورت طبیعی در طول زندگی خود با چالش‌های مختلفی مواجه می‌شوند که ممکن است اعصاب
+                            آن‌ها را تحریک کند. اگر اجاز
+
+                            همه افراد به صورت طبیعی در طول زندگی خود با چالش‌های مختلفی مواجه می‌شوند که ممکن است اعصاب
+                            آن‌ها را تحریک کند. اگر اجازه دهیم که این محرک‌ها به راحتی بر </p>
+                        <a class="news__link" href="javascript:void(0)">بیشتر بخوانید...</a>
+                    </div>
+                </div>
+
+            </section>
+        </div>
+    </main>
+
+    <div class="container">
+        <footer class="footer">
+            <div class="footer__top">
+                <div class="footer__logo footer__top-item">
+                    <img src="assets/svg/logo.svg" alt="">
+                </div>
+                <div class="footer__top-item">
+                    <i class="footer__top-icon fa-solid fa-phone-volume"></i>
+                    <div class="footer__top-wrapper">
+                        <span class="footer__top-text">شماره تماس</span>
+                        <span class="footer__top-desc ss02">021-66633334</span>
+                    </div>
+                </div>
+                <div class="footer__top-item">
+                    <i class="footer__top-icon fa-regular fa-clock"></i>
+                    <div class="footer__top-wrapper">
+                        <span class="footer__top-text">ساعت کاری</span>
+                        <span class="footer__top-desc ss02">08:00 الی 17:00</span>
+                    </div>
+                </div>
+                <div class="footer__top-item">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <div class="footer__top-wrapper">
+                        <span class="footer__top-text">دفتر مرکزی</span>
+                        <span class="footer__top-desc ss02">تهران،پونک،بلوار ...</span>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <div class="footer__bottom-item">
+                    <p class="footer__bottom-text">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                        استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است
+                        ....</p>
+                    <div class="footer__social">
+                        <a href="#" class="footer__social-link">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="#" class="footer__social-link">
+                            <i class="fa-brands fa-telegram"></i>
+                        </a>
+                        <a href="#" class="footer__social-link">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                        <a href="#" class="footer__social-link">
+                            <i class="fa-brands fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer__bottom-item footer__bottom-item--menu">
+                    <ul class="footer__menu">
+                        <li class="footer__menu-item">
+                            <a href="" class="footer__menu-link">
+                                کسب و کار آنلاین
+                            </a>
+                        </li>
+                        <li class="footer__menu-item">
+                            <a href="" class="footer__menu-link">
+                                تولید محتوا
+                            </a>
+                        </li>
+                        <li class="footer__menu-item">
+                            <a href="" class="footer__menu-link">
+                                طراحی وب
+                            </a>
+                        </li>
+                        <li class="footer__menu-item">
+                            <a href="" class="footer__menu-link">
+                                برنامه نویسی
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__bottom-item footer__bottom-item--menu">
+                    <ul class="footer__menu">
+                        <li class="footer__menu-item">
+                            <a href="" class="footer__menu-link">
+                                وبسایت
+                            </a>
+                        </li>
+                        <li class="footer__menu-item">
+                            <a href="" class="footer__menu-link">
+                                اینستاگرام
+                            </a>
+                        </li>
+                        <li class="footer__menu-item">
+                            <a href="" class="footer__menu-link">
+                                سئو
+                            </a>
+                        </li>
+                        <li class="footer__menu-item">
+                            <a href="" class="footer__menu-link">
+                                گرافیک
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__bottom-item enamad">
+                    <div class="footer__followMe">
+                        <i class="fa-brands fa-youtube"></i>
+                        <span>یوتیوب ما را دنبال کنید</span>
+                        <i class="fa-solid fa-angles-left"></i>
+                    </div>
+                    <div class="footer__bottom-lincese">
+                        <a href="#">
+                            <img src="assets/img/enamad-logo.png" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="assets/img/resane-logo.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <p class="copyright">استفاده از مطالب هیکو دیزاین فقط برای مقاصد غیرتجاری و با ذکر منبع بلامانع است.</p>
+        </footer>
+    </div>
+
+
+    <script src="assets/js/app.js"></script>
+</body>
+
+</html>

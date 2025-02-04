@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>حساب کاربری</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/styles/normalize.css" />
+    <link rel="stylesheet" href="assets/styles/grid.css" />
+    <link rel="stylesheet" href="assets/styles/helper.css" />
+    <link rel="stylesheet" href="assets/styles/app.css" />
+    <link rel="stylesheet" href="assets/styles/responsive.css" />
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__wrapper">
+                <div class="header-top">
+                    <div class="header__singup col">
+                        <i class="header__singup-icon fa-solid fa-right-to-bracket"></i>
+                        <span class="header__singup-text fontWeight-600">ورود / عضویت</span>
+                    </div>
+                    <div class="header__logo col">
+                        <a class="header__logo-link" href=""><img class="header__logo-svg" src="assets/svg/logo.svg"
+                                alt="site logo" /></a>
+                        <div class="popup">هیکولرن</div>
+                    </div>
+                    <div class="header__actions col">
+                        <div class="header__actions-btns">
+                            <div class="header__actions-basket">
+                                <span class="badge">1</span>
+                                <i class="fa-solid fa-basket-shopping header__actions-basket-icon"></i>
+                            </div>
+                            <div class="header-actions__search">
+                                <i class="fa-solid fa-magnifying-glass header__actions-search-icon"></i>
+                                <div class="header-actions__search-box triangle">
+                                    <div class="search-box">
+                                        <div class="search-box__form">
+                                            <form action="" class="form">
+                                                <input class="sign__form-input" type="text" placeholder="جستجو کنید ...">
+                                            </form>
+                                        </div>
+                                        <div class="search-box__icon">
+                                            <i class="mobile-menu__search-icon-i fa-solid fa-magnifying-glass"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="header__actions-contactus">
+                            <span class="header__actions-contactus-text"> پشتیبانی </span>
+                            <span class="header__actions-contactus-tel ss02">
+                                021-66633334
+                            </span>
+                            <div class="popup ss02">ساعت تماس 08:00 تا 12:00</div>
+                        </div>
+                    </div>
+                    <div class="header__menu col">
+                        <i class="header__menu-icon fa-solid fa-bars"></i>
+                    </div>
+                </div>
+                <nav class="nav">
+                    <ul class="menu">
+                        <li class="menu__item">
+                            <a href="javascript:void(0)" class="menu__link">منو کاربردی</a>
+                            <ul class="submenu">
+                                <li class="submenu__item">
+                                    <a class="submenu__link" href="javascript:void(0)">سئو</a>
+                                    <ul class="second-submenu triangle">
+                                        <li class="second-submenu__item">
+                                            <a class="second-submenu__link" href="">وبسایت</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="submenu__item">
+                                    <a class="submenu__link" href="javascript:void(0)">برنامه نویسی</a>
+                                    <ul class="second-submenu">
+                                        <li class="second-submenu__item">
+                                            <a class="second-submenu__link" href="">پایتون</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="submenu__item">
+                                    <a class="submenu__link" href="javascript:void(0)">طراحی وب</a>
+                                    <ul class="second-submenu">
+                                        <li class="second-submenu__item">
+                                            <a class="second-submenu__link" href="">تولید محتوا</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="submenu__item">
+                                    <a class="submenu__link" href="javascript:void(0)">کسب و کار آنلاین</a>
+                                    <ul class="second-submenu">
+                                        <li class="second-submenu__item">
+                                            <a class="second-submenu__link" href="">گرافیک</a>
+                                        </li>
+                                        <li class="second-submenu__item">
+                                            <a class="second-submenu__link" href="">اینستاگرام </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="menu__item">
+                            <a href="javascript:void(0)" class="menu__link">دمو محصول</a>
+                            <ul class="submenu">
+                                <li class="submenu__item">
+                                    <a class="submenu__link" href="javascript:void(0)">پرداخت</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="menu__item">
+                            <a href="javascript:void(0)" class="menu__link">دمو وبلاگ</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="javascript:void(0)" class="menu__link">دمو برگه</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="javascript:void(0)" class="menu__link">سبد خرید</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="javascript:void(0)" class="menu__link">فروشگاه</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="mobile-menu">
+            <div class="mobile-menu__search">
+                <div class="mobile-menu__search-form">
+                    <form action="" class="form">
+                        <input class="sign__form-input" type="text" placeholder="جستجو کنید ...">
+                    </form>
+                </div>
+                <div class="mobile-menu__search-icon">
+                    <i class="mobile-menu__search-icon-i fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+            <div class="mobile-menu__btns">
+
+                <div class="mobile-menu__btns-wrapper">
+                    <i class="header__singup-icon fa-solid fa-right-to-bracket"></i>
+                    <a class="mobile-menu__login" href="javascript:void(0)">
+                        حساب کاربری
+                    </a>
+                </div>
+                <div class="mobile-menu__btns-wrapper">
+                    <span class="mobile-menu__basket-num">0</span>
+                    <a class="mobile-menu__basket" href="javascript:void(0)">
+                        سبد خرید
+                    </a>
+                </div>
+            </div>
+            <ul class="mobile-list">
+                <li class="mobile-list__item">
+                    <div class="mobile-list__links">
+                        <a class="mobile-list__link" href="javascript:void(0)">ارز دیجیتال</a>
+                        <i class="fa-solid fa-angle-left"></i>
+                    </div>
+                    <div class="mobile-list__submenu">
+                        <a class="mobile-list__submenu-link" href="#">دسته بندی</a>
+                        <a class="mobile-list__submenu-link" href="#">سئو</a>
+                    </div>
+                </li>
+                <li class="mobile-list__item">
+                    <div class="mobile-list__links">
+                        <a class="mobile-list__link" href="javascript:void(0)">کتاب</a>
+                        <i class="fa-solid fa-angle-left"></i>
+                    </div>
+                    <div class="mobile-list__submenu">
+                        <a class="mobile-list__submenu-link" href="#">کسب و کار</a>
+                    </div>
+                </li>
+                <li class="mobile-list__item">
+                    <div class="mobile-list__links">
+                        <a class="mobile-list__link" href="javascript:void(0)">موبایل</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+
+    <main class="main ss02">
+        <div class="container">
+            <!-- <div class="emptyshop">d</div> -->
+            <h2 class="shop__title account-title">حساب کاربری من</h2>
+
+            <section class="sign">
+                <div class="sign-wrapper">
+                    <div class="register">
+                        <div class="sign__title">
+                            عضویت
+                        </div>
+                        <div class="sign__form">
+                            <form action="" class="form">
+                                <div class="form__row">
+                                    <label class="form__label" for="userName">نام کاربری</label>
+                                    <input class="sign__form-input" type="text" id="userName">
+                                </div>
+                                <div class="form__row">
+                                    <label class="form__label" for="email">آدرس ایمیل</label>
+                                    <input class="sign__form-input" type="text" id="email">
+                                </div>
+                                <div class="form__row">
+                                    <label class="form__label" for="password">گذرواژه</label>
+                                    <input class="sign__form-input" type="text" id="password">
+                                </div>
+                                <p class="sign__text">
+                                    اطلاعات شخصی شما برای پردازش سفارش شما استفاده می‌شود، و پشتیبانی از تجربه شما در این وبسایت، و برای اهداف دیگری که در <a href="#">سیاست حفظ حریم خصوصی</a> توضیح داده شده است.
+                                </p>
+                                <div class="form__row form__btn">
+                                    <input type="submit" value="عضویت">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="login">
+                        <div class="sign__title">
+                            ورود
+                        </div>
+                        <div class="sign__form">
+                            <form action="" class="form">
+                                <div class="form__row">
+                                    <label class="form__label" for="user">نام کاربری یا آدرس ایمیل</label>
+                                    <input class="sign__form-input" type="text" id="user">
+                                </div>
+                                <div class="form__row">
+                                    <label class="form__label" for="pass">گذرواژه</label>
+                                    <input class="sign__form-input" type="password" id="pass">
+                                </div>
+                            
+                                <div class="form__row form__btn login__btn">
+                                    <input type="submit" value="ورود">
+                                    <div>
+                                         <input type="checkbox" name="" id="chb">
+                                        <label for="chb">مرا به خاطر بسپار </label>
+                                    </div>
+                                </div>
+                                <a class="forget__pass" href="#">گذرواژه خود را فراموش کرده اید؟</a>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <div class="container">
+        <footer class="footer">
+            <div class="footer__top">
+                <div class="footer__logo footer__top-item">
+                    <img src="assets/svg/logo.svg" alt="">
+                </div>
+                <div class="footer__top-item">
+                    <i class="footer__top-icon fa-solid fa-phone-volume"></i>
+                    <div class="footer__top-wrapper">
+                        <span class="footer__top-text">شماره تماس</span>
+                        <span class="footer__top-desc ss02">021-66633334</span>
+                    </div>
+                </div>
+                <div class="footer__top-item">
+                    <i class="footer__top-icon fa-regular fa-clock"></i>
+                    <div class="footer__top-wrapper">
+                        <span class="footer__top-text">ساعت کاری</span>
+                        <span class="footer__top-desc ss02">08:00 الی 17:00</span>
+                    </div>
+                </div>
+                <div class="footer__top-item">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <div class="footer__top-wrapper">
+                        <span class="footer__top-text">دفتر مرکزی</span>
+                        <span class="footer__top-desc ss02">تهران،پونک،بلوار ...</span>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <div class="footer__bottom-item">
+                    <p class="footer__bottom-text">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                        استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است
+                        ....</p>
+                    <div class="footer__social">
+                        <a href="#" class="footer__social-link">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="#" class="footer__social-link">
+                            <i class="fa-brands fa-telegram"></i>
+                        </a>
+                        <a href="#" class="footer__social-link">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                        <a href="#" class="footer__social-link">
+                            <i class="fa-brands fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer__bottom-item footer__bottom-item--menu">
+                    <ul class="footer__menu">
+                        <li class="footer__menu-item">
+                            <a href="" class="footer__menu-link">
+                                کسب و کار آنلاین
+                            </a>
+                        </li>
+                        <li class="footer__menu-item">
+                            <a href="" class="footer__menu-link">
+                                تولید محتوا
+                            </a>
+                        </li>
+                        <li class="footer__menu-item">
+                            <a href="" class="footer__menu-link">
+                                طراحی وب
+                            </a>
+                        </li>
+                        <li class="footer__menu-item">
+                            <a href="" class="footer__menu-link">
+                                برنامه نویسی
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__bottom-item footer__bottom-item--menu">
+                    <ul class="footer__menu">
+                        <li class="footer__menu-item">
+                            <a href="" class="footer__menu-link">
+                                وبسایت
+                            </a>
+                        </li>
+                        <li class="footer__menu-item">
+                            <a href="" class="footer__menu-link">
+                                اینستاگرام
+                            </a>
+                        </li>
+                        <li class="footer__menu-item">
+                            <a href="" class="footer__menu-link">
+                                سئو
+                            </a>
+                        </li>
+                        <li class="footer__menu-item">
+                            <a href="" class="footer__menu-link">
+                                گرافیک
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__bottom-item enamad">
+                    <div class="footer__followMe">
+                        <i class="fa-brands fa-youtube"></i>
+                        <span>یوتیوب ما را دنبال کنید</span>
+                        <i class="fa-solid fa-angles-left"></i>
+                    </div>
+                    <div class="footer__bottom-lincese">
+                        <a href="#">
+                            <img src="assets/img/enamad-logo.png" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="assets/img/resane-logo.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <p class="copyright">استفاده از مطالب هیکو دیزاین فقط برای مقاصد غیرتجاری و با ذکر منبع بلامانع است.</p>
+        </footer>
+    </div>
+
+        <script src="assets\js\app.js"></script>
+</body>
+
+</html>

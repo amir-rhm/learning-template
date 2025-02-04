@@ -1,0 +1,60 @@
+.fontWeight-100 {
+  font-variation-settings: "wght" 100;
+  /*Thin (Hairline)*/
+}
+
+.fontWeight-200 {
+  font-variation-settings: "wght" 200;
+  /*Extra Light (Ultra Light)*/
+}
+
+.fontWeight-300 {
+  font-variation-settings: "wght" 300;
+  /*Light*/
+}
+
+.fontWeight-400 {
+  font-variation-settings: "wght" 400;
+  /*normal*/
+}
+
+.fontWeight-500 {
+  font-variation-settings: "wght" 500;
+  /*medium*/
+}
+
+.fontWeight-600 {
+  font-variation-settings: "wght" 600;
+  /*semi bold*/
+}
+
+.fontWeight-700 {
+  font-variation-settings: "wght" 700;
+  /*bold*/
+}
+
+.fontWeight-800 {
+  font-variation-settings: "wght" 800;
+  /*Extra Bold (Ultra Bold)*/
+}
+
+.fontWeight-900 {
+  font-variation-settings: "wght" 900;
+  /*Black (Heavy)*/
+}
+
+.fontWeight-1000 {
+  font-variation-settings: "wght" 1000;
+  /*Extra Black (Ultra Black)*/
+}
+
+.img-responsive {
+  display: block;
+  width: 100%;
+}
+
+.ss02 {
+  -moz-font-feature-settings: "ss02";
+  -webkit-font-feature-settings: "ss02";
+  font-feature-settings: "ss02";
+}
